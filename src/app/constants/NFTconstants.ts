@@ -17,6 +17,6 @@ export const NFTconstants = {
           type: 'function',
         },
       ],
-      address: '0x4bbAa5Cf55D59E7e137525D966097e136E27104d',
-      rpcurl:'wss://mainnet.infura.io/ws/v3/0c4614c66b244dc9a975984b0cf0934a',
+      address: '0x4bbaa5cf55d59e7e137525d966097e136e27104d',
+      rpcurl:'wss://mainnet.infura.io/ws/v3/22a1cff6af0048e28a524d97a1bf7f24',
 };
