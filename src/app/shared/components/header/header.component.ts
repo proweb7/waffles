@@ -74,7 +74,7 @@ export class HeaderComponent implements OnInit {
   }
 
   makeTimer() {
-      var endTime:any = new Date("10 December 2021 15:37:25 GMT+01:00");     
+      var endTime:any = new Date("17 December 2021 15:37:25 GMT+01:00");     
       endTime = (Date.parse(endTime) / 1000);
 
       var now:any = new Date();
