@@ -1,0 +1,89 @@
+.bg-mint{
+    background-color: #111b35;
+}
+
+.waffle-img {
+    padding: 0 1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+
+.mint-box{
+    border-radius: 0.5rem;
+    background: #8ad2f7;
+    padding: 4rem 3.5rem;
+
+    .mint-waffle-img{
+        border: 1px solid #000;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 0px 1px rgba(0,0,0,1);
+        -webkit-box-shadow: 2px 2px 0px 1px rgba(0,0,0,1);
+        -moz-box-shadow: 2px 2px 0px 1px rgba(0,0,0,1);
+        overflow: hidden;
+        margin-bottom: 2rem;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .mint-btn, .connect-btn{
+        border: 1px solid #000;
+        font-family: 'Space Mono', monospace;
+        text-transform: uppercase;
+        box-shadow: 2px 2px 0px 1px rgba(0,0,0,1);
+        -webkit-box-shadow: 2px 2px 0px 1px rgba(0,0,0,1);
+        -moz-box-shadow: 2px 2px 0px 1px rgba(0,0,0,1);
+        padding: 1rem 0;
+        font-weight: 700;
+        font-size: 1.3rem;
+        border-radius: 0.75rem;
+        color: #201619e5;
+        background-color: #FFACC8;
+        &:hover{
+            color: #000;
+        }
+        &:active{
+            box-shadow: 4px 4px 0px 1px rgba(0,0,0,1);
+            -webkit-box-shadow: 4px 4px 0px 1px rgba(0,0,0,1);
+            -moz-box-shadow: 4px 4px 0px 1px rgba(0,0,0,1);
+        }
+    }
+
+    .mint-input{
+        margin-bottom: 2rem  !important;
+        border-radius: 1rem;
+        border: 1px solid #000;
+        overflow: hidden;
+        box-shadow: 2px 2px 0px 1px rgba(0,0,0,1);
+        -webkit-box-shadow: 2px 2px 0px 1px rgba(0,0,0,1);
+        -moz-box-shadow: 2px 2px 0px 1px rgba(0,0,0,1);
+        button{
+            background-color: #ffd74b;
+            border:none;
+            font-size: 2.4rem;
+            font-weight: 900;
+            &:active{
+                opacity: 0.9;
+            }
+        }
+        input{
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #a7a7a7;
+        }
+    }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
