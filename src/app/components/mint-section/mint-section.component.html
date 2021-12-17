@@ -33,7 +33,7 @@
               <div class="d-grid">
                 <button *ngIf="!isConnected; else mintBtn" class="btn btn-danger connect-btn" (click)="open()">Connect Wallet</button>
                 <ng-template #mintBtn>
-                  <button class="btn btn-danger connect-btn" (click)="mint()">Mint for {{totalPrice.toFixed(2)}} ETH</button>
+                  <button class="btn btn-danger connect-btn" (click)="mintAToken()">Mint for {{totalPrice.toFixed(2)}} ETH</button>
                 </ng-template>
               </div>
             </div>
